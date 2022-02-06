@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Postulants</title>
+  <link rel="stylesheet" href="../styles/reset.css">
+  <link rel="stylesheet" href="../styles/styles.css">
+  <script src="../js/postulantsForm.js"></script>
+  <script src="../validations/postulants.js"></script>
+</head>
+<body>
+  <header>
+    <a id="mindSetLogo" href="/"><span>Mind</span>SET</a>
+    <nav>
+      <a id="adminsNav" href="/views/adminsList.html">admins</a>
+      <a href="/views/applicationsList.html">applications</a>
+      <a href="/views/clientsList.html">clients</a>
+      <a href="/views/interviewsList.html">interviews</a>
+      <a href="/views/positionsList.html">positions</a>
+      <a id="postulantsNav" href="/views/postulantsList.html">postulants</a>
+      <a href="/views/profilesList.html">profiles</a>
+      <a href="/views/psychologistsList.html">psychologists</a>
+      <a href="/views/sessionsList.html">sessions</a>
+    </nav>
+  </header>
+  <div class="container">
+    <h2 class="header">Postulants Form</h2>
+    <form class="postulantForm" id="form">
+      <input id="firstName" name="firstName" placeholder="First Name" type="text">
+      <input id="lastName" name="lastName" placeholder="Last Name" type="text">
+      <input id="userName" name="userName" placeholder="User Name" type="text">
+      <input id="email" name="email" placeholder="e-mail" type="email">
+      <input id="password" name="password" placeholder="Password" type="password">
+      <input id="birthDate" name="birthDate" placeholder="Birth Date" type="text">
+      <input id="street" name="street" placeholder="Street" type="text">
+      <input id="streetNumber" name="streetNumber" placeholder="Street Number" type="number">
+      <input id="postalCode" name="postalCode" placeholder="Postal Code" type="text">
+      <input id="city" name="city" placeholder="City" type="text">
+      <input id="province" name="province" placeholder="Province" type="text">
+      <input id="country" name="country" placeholder="Country" type="text">
+      <input id="telephone" name="telephone" placeholder="Telephone" type="number">
+      <h2 class="header">Postulant Experience</h2>
+      <input id="jobPosition" name="jobPosition" placeholder="Job Position" type="text">
+      <input id="employer" name="employer" placeholder="Employer" type="text">
+      <input id="startDate" name="startDate" placeholder="Start Date" type="text">
+      <input id="endDate" name="endDate" placeholder="End Date" type="text">
+      <input id="description" name="description" placeholder="Description" type="text">
+      <div id="errorMessage"></div>
+      <input id="saveButton" class="button" type="submit" value="Send">
+    </form>
+  </div>
+  <footer>
+    <div>© Nico's group, Radium Rocket "Become a Software Developer 2021"</div>
+  </footer>
+</body>
+</html>

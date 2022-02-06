@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindSet</title>
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <script src="../validations/applications.js"></script>
+    <script src="../js/applicationsForm.js"></script>
+  </head>
+  <body>
+    <header>
+      <a id="mindSetLogo" href="/"><span>Mind</span>SET</a>
+      <nav>
+        <a href="/views/adminsList.html">admins</a>
+        <a id="applicationsNav" href="/views/applicationsList.html">applications</a>
+        <a href="/views/clientsList.html">clients</a>
+        <a href="/views/interviewsList.html">interviews</a>
+        <a href="/views/positionsList.html">positions</a>
+        <a href="/views/postulantsList.html">postulants</a>
+        <a href="/views/profilesList.html">profiles</a>
+        <a href="/views/psychologistsList.html">psychologists</a>
+        <a href="/views/sessionsList.html">sessions</a>
+      </nav>
+    </header>
+    <div class="container">
+      <h2 class="header">Applications Form</h2>
+      <form id="form">
+        <input id="job" name="job" placeholder="Enter a position Id" type="text" required/>
+        <input id="client" name="client" placeholder="Enter a client Id" type="text" required/>
+        <input id="postulant" name="postulant" placeholder="Enter a postulant Id" type="text" />
+        <input id="result" name="result" placeholder="Result" type="text" required/>
+        <div id="error_massage"></div>
+        <input id="saveButton" class="button" type="submit" value="Send">
+      </form>
+    </div>
+    <footer>
+      <div>© Nico's group, Radium Rocket "Become a Software Developer 2021"</div>
+    </footer>
+  </body>
+</html>

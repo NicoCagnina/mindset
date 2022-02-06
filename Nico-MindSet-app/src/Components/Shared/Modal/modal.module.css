@@ -1,0 +1,87 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+  width: 600px;
+  height: 300px;
+  background-color: white;
+  border-radius: 1px;
+}
+
+.title {
+  font-size: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.modal button:disabled {
+	background: #555;
+	cursor: not-allowed;
+}
+
+.modal button {
+  display:inline-block;
+  justify-content: center;
+  box-sizing: border-box;
+	width: 40%;
+	max-width: 580px;
+	padding: 15px;
+  margin: 80px 30px;
+	border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  color: #fff;
+  text-align: center;
+}
+
+.subtitle {
+  display: flex;
+  color: darkred;
+  padding-top: 70px;
+  justify-content: center;
+}
+
+.confirmBtnModal{
+  background: #72bc8e;
+}
+
+.confirmBtnModal:hover {
+	background: #86d6a5;
+}
+
+.cancelBtnModal{
+  background: #646464  !important;
+}
+
+.cancelBtnModal:hover {
+	background: #797878;
+}
+
+.backBtnModal{
+  background: red;
+}
+
+.backBtnModal:hover{
+  background: darkred;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.error {
+  color: red;
+}

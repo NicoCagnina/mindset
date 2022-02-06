@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions</title>
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <script type="text/javascript" src="../js/positionsForm.js"></script>
+  </head>
+  <body>
+    <header>
+      <a id="mindSetLogo" href="/"><span>Mind</span>SET</a>
+      <nav>
+        <a id="adminsNav" href="/views/adminsList.html">admins</a>
+        <a href="/views/applicationsList.html">applications</a>
+        <a href="/views/clientsList.html">clients</a>
+        <a href="/views/interviewsList.html">interviews</a>
+        <a id="positionsNav" href="/views/positionsList.html">positions</a>
+        <a id="postulantsNav" href="/views/postulantsList.html">postulants</a>
+        <a href="/views/profilesList.html">profiles</a>
+        <a href="/views/psychologistsList.html">psychologists</a>
+        <a href="/views/sessionsList.html">sessions</a>
+      </nav>
+    </header>
+    <div class="container">
+      <h2 class="header">Positions Form</h2>
+      <form id="form">
+        <input id="clientId" name="clientId" placeholder="Client ID" type="text">
+        <input id="job" name="job" placeholder="Job Name" type="text">
+        <input id="description" name="description" placeholder="Job Description" type="text">
+        <!-- <input id="createdAt" name="createdAt" placeholder="Created At" type="text"> -->
+        <div id="errorMessage"></div>
+        <input id="saveButton" class="button" type="submit" value="Send">
+      </form>
+    </div>
+    <footer>
+      <div>© Nico's group, Radium Rocket "Become a Software Developer 2021"</div>
+    </footer>
+  </body>
+</html>

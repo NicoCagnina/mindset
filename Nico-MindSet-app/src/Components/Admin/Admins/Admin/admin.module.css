@@ -1,0 +1,11 @@
+tr td {
+  background: white;
+}
+
+tr:hover td {
+  background: #f9f7f5;
+}
+
+tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}

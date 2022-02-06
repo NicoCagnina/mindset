@@ -1,0 +1,249 @@
+* {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  margin-bottom: 40px;
+  padding: 0 30px;
+  background-color: #56be8a;
+  box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.75);
+}
+
+#mindSetLogo {
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+}
+
+#mindSetLogo > span {
+  color: white;
+}
+
+header > nav > a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  margin-left: 15px;
+}
+
+header > nav > a:hover {
+  color: black;
+}
+.activePage {
+  color: #27ae60;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 16px;
+  min-width: 400px;
+  max-width: 800px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.list thead tr {
+  background-color: #27ae60;
+  color: #ffffff;
+  text-align: left;
+}
+
+.list th,
+.list td {
+  padding: 12px 15px;
+  cursor: pointer;
+}
+
+.list tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.list tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.list tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.list tbody tr.active-row {
+  font-weight: bold;
+  color: #27ae60;
+}
+
+/* form styles */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 200px;
+  margin: 10px auto;
+  padding: 16px;
+  background: #f7f7f7;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+#containerClients {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 16px;
+  background: #f7f7f7;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.header {
+  background: #27ae60;
+  padding: 20px 0;
+  font-size: 140%;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.container input,
+.container textarea,
+.container select {
+  outline: none;
+  box-sizing: border-box;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 4%;
+  border: 1px solid #ccc;
+  padding: 15px;
+  color: #555;
+}
+
+.container input:focus,
+.container textarea:focus,
+.container select:focus {
+  box-shadow: 0 0 5px #27ae60;
+  padding: 15px;
+  border: 1px solid #27ae60;
+}
+
+.button,
+.container input[type="submit"] {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 15px;
+  background: #27ae60;
+  border-bottom: 2px solid #30c29e;
+  box-shadow: 0 0 5px #27ae60;
+  padding: 15px;
+  border: 1px solid #27ae60;
+}
+
+.button:hover,
+.container input[type="submit"]:hover {
+  background: #2ebc99;
+}
+
+.button:disabled,
+.container input[type="submit"]:disabled {
+  background: #555;
+  border-bottom: 2px solid #555;
+  cursor: not-allowed;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin-top: 40px;
+  background-color: #56be8a;
+}
+
+footer > div {
+  font-style: italic;
+  font-size: 12px;
+  color: white;
+}
+
+.activePage {
+  color: #27ae60;
+}
+
+.modalClient .modalSession {
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+  width: 200px;
+  height: 100px;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  color: #ff0000;
+}
+
+.modalSession > p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.modalClient > p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.modalSessionRemove {
+  display: flex;
+}
+
+.modalSession > button {
+  background-color: #56be8a;
+  color: #ffffff;
+}
+
+.error {
+  padding: 5px;
+  color: #ff0000;
+}
+
+.modalClientRemove {
+  display: flex;
+}
+
+.modalClient > button {
+  background-color: #56be8a;
+  color: #ffffff;
+}
+
+.error {
+  padding: 5px;
+  color: #ff0000;
+}
+
+.postulantForm {
+  max-width: 700px;
+}

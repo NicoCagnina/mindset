@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list {
+  border-collapse: collapse;
+  font-size: 16px;
+  min-width: 400px;
+  max-width: 800px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.list thead tr {
+  background-color: #27ae60;
+    color: #ffffff;
+    text-align: center;
+}
+
+.list th,
+.list td {
+  padding: 12px 15px;
+}
+
+.list td {
+  cursor: pointer;
+}
+
+.list tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.list tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.list tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.list tbody tr.active-row {
+  font-weight: bold;
+  color: #27ae60;
+}
+
+.button,
+.container input[type='submit'] {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  padding: 15px;
+  background: #27ae60;
+  border-bottom: none;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button:hover,
+.container input[type='submit']:hover {
+  background: #2ebc99;
+}
+
+.button:disabled,
+.container input[type='submit']:disabled {
+  background: #555;
+  border-bottom: 2px solid #555;
+  cursor: not-allowed;
+}
+

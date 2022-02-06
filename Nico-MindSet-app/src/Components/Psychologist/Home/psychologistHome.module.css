@@ -1,0 +1,226 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  gap: 3%;
+  width: 100%;
+  height: 100%;
+}
+
+.divContainer {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #d1d1d1;
+  border-radius: 3%;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+  width: 40%;
+  margin: 3% 0;
+  padding: 3%;
+  max-height: 620px;
+  overflow-y: scroll;
+}
+
+.divContainer::-webkit-scrollbar {
+  width: 15px;
+}
+
+.divContainer::-webkit-scrollbar-thumb {
+  background-color: #72bc8e;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.userInfoContainer {
+  border: 1px solid #d1d1d1;
+  border-radius: 5%;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+  width: 35%;
+  min-width: 280px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.imgContainer {
+  background-image: URL('https://coworkingfy.com/wp-content/uploads/2020/01/lado-izquierdo-cerebro-parte-creativa-brainstorming.jpg');
+  background-size: cover;
+  object-fit: cover;
+  border-radius: 5%;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+}
+
+.userImg {
+  position: relative;
+  top: 65px;
+  align-items: center;
+  border-radius: 50%;
+  border: 5px solid #d1d1d1;
+  width: 40%;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+
+.userInfo {
+  padding: 5px;
+  margin-bottom: 2%;
+  text-transform: uppercase;
+  justify-content: center;
+  text-align: center;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 5%;
+}
+
+.userInfo span {
+  margin-left: 10px;
+  color: #fff;
+  background-color: #228adb;
+}
+
+.userName {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-weight: 800;
+  font-size: 25px;
+  padding: 25px 25px 10px 25px;
+  text-transform: uppercase;
+  justify-content: center;
+  text-align: center;
+}
+
+.sessionCard {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #d1d1d1;
+  border-radius: 3%;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+  width: 40%;
+  min-width: 280px;
+  margin-top: 20px;
+  padding: 3%;
+  max-height: 620px;
+}
+
+.statusInfo {
+  padding: 5px;
+  text-transform: capitalize;
+}
+
+.succesfullSession {
+  color: #27ae60;
+}
+
+.assignedSession {
+  color: #0068bd;
+}
+
+.cancelledSession {
+  color: crimson;
+}
+
+.btn {
+  border: none;
+  margin: 20px;
+  background-color: #27ae60;
+  color: #ffff;
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background: #2ebc99;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardsInfoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cardsInfo {
+  display: flex;
+  flex: 1 0 21%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: #d3f5cd;
+  margin: 10px;
+  padding: 5px;
+  max-width: 150px;
+  border-radius: 3%;
+  box-shadow: 2px 2px 2px 2px rgba(116, 115, 115, 0.233);
+}
+
+.cardsInfoTitle {
+  font-weight: 600;
+  text-transform: uppercase;
+  justify-content: center;
+  text-align: center;
+}
+
+.cardsInfo button {
+  background: #fff;
+  border: none;
+  border-radius: 5%;
+  margin: 4px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.cardsInfo button:hover {
+  color: #fff;
+  background-color: #415549;
+}
+
+.postulantInfo {
+  text-transform: capitalize;
+  padding-top: 15px;
+}
+
+.sessionsButtonsContainer {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid olive;
+}
+
+.sessionsContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sessionsButton {
+  padding: 5px 40px 5px 40px;
+  text-transform: uppercase;
+  text-align: center;
+  background: transparent;
+  cursor: pointer;
+  border: none;
+  width: 50%;
+  font-size: 15px;
+  font-weight: 800;
+}
+.verticalLine {
+  display: inline-block;
+  border-left: 1px solid olive;
+  margin: 0 10px;
+  height: 30px;
+}
+.sessionsButton:hover {
+  background: #eeeeee;
+}
+
+.sessionInfoBtn {
+  background: transparent;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interviews</title>
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <script src="../js/interviewsForm.js"></script>
+  </head>
+  <body>
+    <header>
+      <a id="mindSetLogo" href="/"><span>Mind</span>SET</a>
+      <nav>
+        <a id="adminsNav" href="/views/adminsList.html">admins</a>
+        <a href="/views/applicationsList.html">applications</a>
+        <a href="/views/clientsList.html">clients</a>
+        <a id="interviewsNav" href="/views/interviewsList.html">interviews</a>
+        <a href="/views/positionsList.html">positions</a>
+        <a href="/views/postulantsList.html">postulants</a>
+        <a href="/views/profilesList.html">profiles</a>
+        <a href="/views/psychologistsList.html">psychologists</a>
+        <a href="/views/sessionsList.html">sessions</a>
+      </nav>
+    </header>
+    <div class="container">
+      <h2 class="header">Interviews Form</h2>
+      <form id="form">
+        <input id="position" name="position" placeholder="Position Id" type="string" required/>
+        <input id="postulant" name="postulant" placeholder="Postulant Id" type="string" required/>
+        <input id="date" placeholder="Date" name="date" type="datetime" required/>
+        <div id="errorDate"></div>
+        <input id="status" name="status" placeholder="Status of the interview" type="string" required/>
+        <div id="errorStatus"></div>
+        <div id="error_massage"></div>
+        <input id="saveButton" class="button" type="submit" value="Send">
+      </form>
+    </div>
+    <footer>
+      <div>© Nico's group, Radium Rocket "Become a Software Developer 2021"</div>
+    </footer>
+  </body>
+</html>

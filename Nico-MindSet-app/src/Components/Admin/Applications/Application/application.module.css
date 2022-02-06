@@ -1,0 +1,7 @@
+tr td {
+  background: white;
+}
+
+tr:hover td {
+  background: #f9f7f5;
+}

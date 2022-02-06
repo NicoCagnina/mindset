@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  width: 90%;
+  min-height: 100px;
+  z-index: 2;
+}
+
+.license {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  height: 50px;
+  width: 90%;
+  padding: 0 5vw;
+  margin-top: auto;
+  background-color: #f2f2f2;
+}
+
+.copyright {
+  font-size: 0.7rem;
+  font-style: italic;
+  color: black;
+}
+
+.itemContainer{
+  display: flex;
+}
+
+@media screen and (min-width: 750px) {
+  .socialIcon {
+    margin-left: 15px;
+  }
+}

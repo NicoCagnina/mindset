@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10vw;
+  height: 10vh;
+  background-color: #72bc8e;
+}
+
+.nameColor {
+  color: black;
+}
+
+
+.appName {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.titles{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.title{
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  color:white;
+  font-weight: 800;
+  font-size: 25px;
+  margin-left: 15vw;
+}
+
+.logOutButton{
+  font-size: 50px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+
+  .container{
+    height: 15vh;
+  }
+  .nameColor {
+    color: black;
+  }
+
+  .appName {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+
+  .titles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .title{
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    color:white;
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 0vw;
+  }
+
+}
